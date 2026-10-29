@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
     <RootNamespace>DynamicPowerGrid</RootNamespace>
     <AssemblyName>DynamicPowerGrid</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -15,6 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="src\**" />
+    <None Remove="src\**" />
     <Compile Remove="tests\**" />
     <None Remove="tests\**" />
   </ItemGroup>
