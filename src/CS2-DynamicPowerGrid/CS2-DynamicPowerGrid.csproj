@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DynamicPowerGrid</RootNamespace>
+    <AssemblyName>DynamicPowerGrid</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Title>Dynamic Power Grid Manager</Title>
+    <Version>1.0.0</Version>
+    <Authors>BK1233</Authors>
+    <Description>Automatic power grid balancing and dispatch management for Cities: Skylines II.</Description>
+    <PackageProjectUrl>https://github.com/BK1233/CS2-DynamicPowerGrid</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Properties\PublishConfiguration.xml" />
+  </ItemGroup>
+
+</Project>
