@@ -15,6 +15,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="tests\**" />
+    <None Remove="tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Properties\PublishConfiguration.xml" />
   </ItemGroup>
 

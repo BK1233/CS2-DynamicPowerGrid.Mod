@@ -1,7 +1,5 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/CS2-DynamicPowerGrid/CS2-DynamicPowerGrid.csproj" />
-  </Folder>
+  <Project Path="CS2-DynamicPowerGrid.csproj" />
   <Folder Name="/tests/">
     <Project Path="tests/CS2-DynamicPowerGrid.Tests/CS2-DynamicPowerGrid.Tests.csproj" />
   </Folder>
