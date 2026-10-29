@@ -1,3 +1,4 @@
+#nullable enable
 using DynamicPowerGrid.Systems;
 
 namespace DynamicPowerGrid
