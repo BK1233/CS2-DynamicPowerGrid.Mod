@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\CS2-DynamicPowerGrid\CS2-DynamicPowerGrid.csproj" />
+    <ProjectReference Include="..\..\CS2-DynamicPowerGrid.csproj" />
   </ItemGroup>
 
 </Project>
